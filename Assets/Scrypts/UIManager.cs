@@ -15,6 +15,11 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
  public void UpdateScore(int Score)
  {
-txtScore.text = "Score = " + Score.ToString();
+    txtScore.text = "Score = " + Score.ToString();
+
+    if(Score >= 3)
+    {
+        Debug.Log("gane");
+    }
  }
 }
