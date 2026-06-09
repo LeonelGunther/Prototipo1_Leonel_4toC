@@ -37,8 +37,8 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -129,7 +129,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1462689
 Transform:
@@ -200,9 +200,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -350,9 +374,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1892951368}
     m_Modifications:
+    - target: {fileID: 100000, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_Name
       value: Mesa photorealistica (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -516,6 +556,25 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!1 &128599260 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: f0160d64edd161447b17aad54e92e55d,
+    type: 3}
+  m_PrefabInstance: {fileID: 402196033}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &128599262
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128599260}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6477168, y: 2.6652157, z: 1.961861}
+  m_Center: {x: 0.32385874, y: 0.19682999, z: -0.08615939}
 --- !u!1001 &140878448
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -523,9 +582,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -632,9 +715,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1892951368}
     m_Modifications:
+    - target: {fileID: 100000, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_Name
       value: Mesa photorealistica (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -711,75 +810,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2643185, y: 1.193037, z: 2.569463}
   m_Center: {x: 0.37331295, y: 0.64589643, z: 0.14156863}
---- !u!1 &170076733
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 170076735}
-  - component: {fileID: 170076734}
-  m_Layer: 0
-  m_Name: Directional Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!108 &170076734
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 170076733}
-  m_Enabled: 1
-  serializedVersion: 8
-  m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 30
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Lightmapping: 1
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!4 &170076735
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 170076733}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: -332.78088, y: -221.15468, z: 3.2299995}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1903756994}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &191788971 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a,
@@ -863,9 +893,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1892951368}
     m_Modifications:
+    - target: {fileID: 100000, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_Name
       value: Mesa photorealistica
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -924,9 +970,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1084,7 +1154,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &234158932
 BoxCollider:
@@ -1165,9 +1235,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1309,7 +1403,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &271359524
 Transform:
@@ -1396,7 +1490,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &296121496
 BoxCollider:
@@ -1477,9 +1571,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1604,6 +1722,97 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2643185, y: 1.193037, z: 2.569463}
   m_Center: {x: 0.37331295, y: 0.64589643, z: 0.14156863}
+--- !u!1 &333380122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 333380126}
+  - component: {fileID: 333380125}
+  - component: {fileID: 333380124}
+  - component: {fileID: 333380123}
+  m_Layer: 0
+  m_Name: Cube (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!65 &333380123
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333380122}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &333380124
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333380122}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3d065a702db74a74e8a1beca80d6030b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &333380125
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333380122}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &333380126
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333380122}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -22.52, y: 5.22, z: -13.69}
+  m_LocalScale: {x: 1, y: 0.11259508, z: 0.8431124}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &333576435 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a,
@@ -1792,9 +2001,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1942,9 +2175,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100000, guid: f0160d64edd161447b17aad54e92e55d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: f0160d64edd161447b17aad54e92e55d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: f0160d64edd161447b17aad54e92e55d, type: 3}
       propertyPath: m_Name
       value: TACHO (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: f0160d64edd161447b17aad54e92e55d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f0160d64edd161447b17aad54e92e55d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2019,9 +2264,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2128,9 +2397,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2247,7 +2540,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &422280682
 BoxCollider:
@@ -2368,7 +2661,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &475711141
 Transform:
@@ -2472,9 +2765,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2674,6 +2991,75 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &512514784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 512514786}
+  - component: {fileID: 512514785}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!108 &512514785
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512514784}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 5.42
+  m_Range: 15.22
+  m_SpotAngle: 179
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1.04
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &512514786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512514784}
+  m_LocalRotation: {x: 0.7075963, y: -0, z: -0, w: 0.706617}
+  m_LocalPosition: {x: -22.55, y: 5.0700006, z: -13.64}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 89.926, y: 0, z: 0}
 --- !u!1001 &536281462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2684,7 +3070,7 @@ PrefabInstance:
     - target: {fileID: 8301348219256438973, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -22.48
+      value: -19.1
       objectReference: {fileID: 0}
     - target: {fileID: 8301348219256438973, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
         type: 3}
@@ -2694,7 +3080,7 @@ PrefabInstance:
     - target: {fileID: 8301348219256438973, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -14.42
+      value: -17.57
       objectReference: {fileID: 0}
     - target: {fileID: 8301348219256438973, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
         type: 3}
@@ -2831,7 +3217,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &579534269
 Transform:
@@ -2902,9 +3288,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3077,9 +3487,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1892951368}
     m_Modifications:
+    - target: {fileID: 100000, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_Name
       value: Mesa photorealistica (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3138,9 +3564,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3257,7 +3707,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &645508699
 Transform:
@@ -3331,9 +3781,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3467,7 +3941,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1903756994}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &672335827 stripped
 GameObject:
@@ -3664,9 +4138,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1892951368}
     m_Modifications:
+    - target: {fileID: 100000, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_Name
       value: Mesa photorealistica (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3725,9 +4215,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3827,6 +4341,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+--- !u!1 &773347139 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: f0160d64edd161447b17aad54e92e55d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1390029572}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &773347141
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773347139}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!65 &773347142
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773347139}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.741692, y: 2.085761, z: 2.1806414}
+  m_Center: {x: 0.37084702, y: 0.542881, z: 0.5903196}
 --- !u!1 &800244524 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a,
@@ -3875,9 +4424,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4055,9 +4628,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4214,9 +4811,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4350,8 +4971,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -409, y: 250}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -383.2, y: 250.9}
+  m_SizeDelta: {x: 251.58005, y: 48.157867}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &935501908
 MonoBehaviour:
@@ -4488,7 +5109,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &937507386
 Transform:
@@ -4767,7 +5388,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1033193811
 BoxCollider:
@@ -4889,9 +5510,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5023,9 +5668,61 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100000, guid: a0c6ed81fb8bc3e489a41bdf408a7183, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: a0c6ed81fb8bc3e489a41bdf408a7183, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: a0c6ed81fb8bc3e489a41bdf408a7183, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: a0c6ed81fb8bc3e489a41bdf408a7183, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: a0c6ed81fb8bc3e489a41bdf408a7183, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: a0c6ed81fb8bc3e489a41bdf408a7183, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: a0c6ed81fb8bc3e489a41bdf408a7183, type: 3}
       propertyPath: m_Name
       value: nuevo lugar bien hecho (Posta)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: a0c6ed81fb8bc3e489a41bdf408a7183, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: a0c6ed81fb8bc3e489a41bdf408a7183, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: a0c6ed81fb8bc3e489a41bdf408a7183, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100018, guid: a0c6ed81fb8bc3e489a41bdf408a7183, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: a0c6ed81fb8bc3e489a41bdf408a7183, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100022, guid: a0c6ed81fb8bc3e489a41bdf408a7183, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100024, guid: a0c6ed81fb8bc3e489a41bdf408a7183, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: a0c6ed81fb8bc3e489a41bdf408a7183, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5092,9 +5789,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1892951368}
     m_Modifications:
+    - target: {fileID: 100000, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_Name
       value: Mesa photorealistica (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5276,9 +5989,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5395,7 +6132,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1112904310
 BoxCollider:
@@ -5476,9 +6213,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1892951368}
     m_Modifications:
+    - target: {fileID: 100000, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_Name
       value: Mesa photorealistica (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5544,6 +6297,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 5fee17db6cdc6c64ea409fd0ca14ddb0, type: 3}
       propertyPath: m_TagString
       value: Collectible
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5fee17db6cdc6c64ea409fd0ca14ddb0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5fee17db6cdc6c64ea409fd0ca14ddb0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5660,6 +6417,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 483799380}
     m_Modifications:
+    - target: {fileID: 100000, guid: 3dea6b680a672cf4f8210b52a95a360e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 3dea6b680a672cf4f8210b52a95a360e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 3dea6b680a672cf4f8210b52a95a360e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 3dea6b680a672cf4f8210b52a95a360e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 3dea6b680a672cf4f8210b52a95a360e, type: 3}
       propertyPath: m_Name
       value: pAPELES
@@ -5667,6 +6440,10 @@ PrefabInstance:
     - target: {fileID: 100008, guid: 3dea6b680a672cf4f8210b52a95a360e, type: 3}
       propertyPath: m_TagString
       value: Collectible
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 3dea6b680a672cf4f8210b52a95a360e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3dea6b680a672cf4f8210b52a95a360e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5802,9 +6579,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -6020,7 +6821,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1255978051
 Transform:
@@ -6140,9 +6941,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1892951368}
     m_Modifications:
+    - target: {fileID: 100000, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_Name
       value: Mesa photorealistica (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6201,9 +7018,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -6358,7 +7199,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1389221721
 Transform:
@@ -6409,9 +7250,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100000, guid: f0160d64edd161447b17aad54e92e55d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: f0160d64edd161447b17aad54e92e55d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: f0160d64edd161447b17aad54e92e55d, type: 3}
       propertyPath: m_Name
       value: TACHO
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: f0160d64edd161447b17aad54e92e55d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f0160d64edd161447b17aad54e92e55d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6699,9 +7552,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -6879,9 +7756,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1892951368}
     m_Modifications:
+    - target: {fileID: 100000, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_Name
       value: Mesa photorealistica (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6940,9 +7833,65 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100000, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
       propertyPath: m_Name
       value: nuevo lugar bien hecho (Posta) 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100018, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100022, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100024, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6950,15 +7899,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.66
+      value: -17.524
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.16
+      value: 1.06
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.17
+      value: 0.2652
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
       propertyPath: m_LocalRotation.x
@@ -6994,15 +7943,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3
+      value: 0.31260002
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.35
+      value: 0.2740668
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.32
+      value: 0.32302
       objectReference: {fileID: 0}
     - target: {fileID: 2300014, guid: 8539d45bac4c1784982071c95d7c09d8, type: 3}
       propertyPath: m_Enabled
@@ -7017,9 +7966,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -7136,7 +8109,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1507272611
 Transform:
@@ -7329,7 +8302,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1596007429
 Transform:
@@ -7372,6 +8345,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ab9a48fb48c6fda43be7f78b45cc809b, type: 3}
       propertyPath: m_TagString
       value: Collectible
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ab9a48fb48c6fda43be7f78b45cc809b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ab9a48fb48c6fda43be7f78b45cc809b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7442,17 +8419,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pizarron
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: cc249f3946727484baca8a562ca7c382, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cc249f3946727484baca8a562ca7c382, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.35
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cc249f3946727484baca8a562ca7c382, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.45
+      value: 3.17
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cc249f3946727484baca8a562ca7c382, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.25
+      value: -11.36
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cc249f3946727484baca8a562ca7c382, type: 3}
       propertyPath: m_LocalRotation.x
@@ -7488,11 +8469,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cc249f3946727484baca8a562ca7c382, type: 3}
       propertyPath: m_LocalScale.y
-      value: 258.1784
+      value: 164.60481
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cc249f3946727484baca8a562ca7c382, type: 3}
       propertyPath: m_LocalScale.z
-      value: 161.10614
+      value: 111.95725
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: cc249f3946727484baca8a562ca7c382, type: 3}
       propertyPath: m_LocalScale.x
@@ -7548,9 +8529,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1892951368}
     m_Modifications:
+    - target: {fileID: 100000, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_Name
       value: Mesa photorealistica (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7716,9 +8713,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_Name
       value: Mesa photorealistica (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7859,7 +8872,7 @@ Transform:
   m_LocalScale: {x: 100, y: 1, z: 100}
   m_Children: []
   m_Father: {fileID: 1903756994}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1700189778
 GameObject:
@@ -7919,7 +8932,10 @@ MonoBehaviour:
   m_text: 'PERDISTE
 
 
-    presiona "R" para volver a jugar'
+    presiona "R" para volver a jugar
+
+
+    Marcos se llevo tus cosas'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7988,12 +9004,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -1.1012268, w: 0}
   m_textInfo:
     textComponent: {fileID: 1700189780}
-    characterCount: 42
+    characterCount: 69
     spriteCount: 0
-    spaceCount: 7
-    wordCount: 7
+    spaceCount: 13
+    wordCount: 12
     linkCount: 0
-    lineCount: 3
+    lineCount: 5
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -8036,7 +9052,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1705828876
 Transform:
@@ -8107,9 +9123,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -8322,7 +9362,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1845960817
 Transform:
@@ -8466,7 +9506,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1892951368
 Transform:
@@ -8501,9 +9541,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -8630,7 +9694,6 @@ Transform:
   m_LocalPosition: {x: 339.1609, y: 225.47469, z: -14.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 170076735}
   - {fileID: 1695119894}
   - {fileID: 670583422}
   - {fileID: 2055841635}
@@ -8654,7 +9717,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1904725997
 Transform:
@@ -8726,9 +9789,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -8926,9 +10013,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1892951368}
     m_Modifications:
+    - target: {fileID: 100000, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_Name
       value: Mesa photorealistica (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8987,9 +10090,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -9106,7 +10233,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2047051366
 Transform:
@@ -9205,7 +10332,7 @@ Transform:
   - {fileID: 458148134}
   - {fileID: 549526963}
   m_Father: {fileID: 1903756994}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2084863528
 PrefabInstance:
@@ -9214,9 +10341,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1892951368}
     m_Modifications:
+    - target: {fileID: 100000, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_Name
       value: Mesa photorealistica (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 47fc6aa4aaf35ca4b836b27eca3b89ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9300,9 +10443,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389221721}
     m_Modifications:
+    - target: {fileID: 100000, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_Name
       value: SillaPhotorealistica (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 5c7b09558484a424f8b8d59a58e9a13a, type: 3}
       propertyPath: m_LocalRotation.x
