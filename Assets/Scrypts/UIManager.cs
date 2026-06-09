@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -14,12 +15,22 @@ public class UIManager : MonoBehaviour
 
     void Start()
     {
+        Time.timeScale = 1f;
         UpdateScore(0);
+
+        perdiste.gameObject.SetActive(false);
+        ganaste.gameObject.SetActive(false);
     }
 
     void Update()
     {
         updatetime();
+
+
+        if (!vivo && Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 
     public void UpdateScore(int Score)
@@ -29,26 +40,27 @@ public class UIManager : MonoBehaviour
         if (Score >= 3)
         {
             Debug.Log("gane");
-            vivo = false; 
+            vivo = false;
             ganaste.gameObject.SetActive(true);
+
+            Time.timeScale = 0f; 
         }
     }
 
     public void updatetime()
     {
-        if ( vivo == true) {
-        TXT_Time.text = "Tiempo = " + tiempo.ToString("F2");
-        tiempo -= Time.deltaTime;
+        if (vivo)
+        {
+            TXT_Time.text = "Tiempo = " + tiempo.ToString("F2");
+            tiempo -= Time.deltaTime;
         }
 
-        if (tiempo < 0){
+        if (tiempo < 0)
+        {
+            vivo = false;
+            perdiste.gameObject.SetActive(true);
 
-        perdiste.gameObject.SetActive(true);
-
-
+            Time.timeScale = 0f; 
         }
-
-        
-        
     }
 }
